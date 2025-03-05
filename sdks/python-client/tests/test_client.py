@@ -19,7 +19,7 @@ class TestKnowledgeBaseClient(unittest.TestCase):
     def setUp(self):
         self.knowledge_base_client = KnowledgeBaseClient(API_KEY, base_url=API_BASE_URL)
         self.README_FILE_PATH = os.path.abspath(
-            os.path.join(FILE_PATH_BASE, "../README.md")
+            os.path.join(FILE_PATH_BASE, "../README_Guidance.md")
         )
         self.dataset_id = None
         self.document_id = None
